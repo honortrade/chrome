@@ -5,7 +5,7 @@ FROM selenium/standalone-chrome:112.0
 ENV CONTAINER_NAME=chrome
 
 # Expose the required ports
-EXPOSE 4444 7900
+EXPOSE 4444
 
 # Set the timezone
 ENV TZ=Asia/Shanghai
